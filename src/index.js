@@ -3,6 +3,8 @@ import resource from 'angular-resource';
 import material from 'angular-material';
 import messages from 'angular-messages';
 import uirouter from 'angular-ui-router';
+import formly from 'angular-formly';
+import formlyMaterial from 'angular-formly-material';
 
 import 'angular-material/angular-material.css';
 import 'material-design-icons';
@@ -17,6 +19,8 @@ angular.module('app', [
     material,
     messages,
     uirouter,
+    formly,
+    formlyMaterial,
 
     Components,
     Containers,
