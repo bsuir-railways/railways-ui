@@ -8,8 +8,7 @@ export default class HomeContoller {
                 type: 'input',
                 templateOptions: {
                     type: 'email',
-                    label: 'Email address',
-                    placeholder: 'Enter email'
+                    label: 'Email address'
                 }
             },
             {
@@ -17,8 +16,7 @@ export default class HomeContoller {
                 type: 'input',
                 templateOptions: {
                     type: 'password',
-                    label: 'Password',
-                    placeholder: 'Password'
+                    label: 'Password'
                 }
             },
             {
